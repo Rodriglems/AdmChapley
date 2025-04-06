@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao CSS</title>
+    <style>
+        /* Exemplo de formatação de parágrafo */
+        p {
+            background-color: #FFFF99;
+            color: #000000;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            border: 2px dotted gray;
+            margin: 20px;
+        }
+
+        /* Exemplo de alinhamento de texto */
+        .alinhado-esquerda { text-align: left; }
+        .alinhado-direita { text-align: right; }
+        .centralizado { text-align: center; }
+        .justificado { text-align: justify; }
+
+        /* Exemplo de bordas */
+        .borda-solida { border: 2px solid black; padding: 10px; }
+        .borda-pontilhada { border: 2px dotted blue; padding: 10px; }
+        .borda-dupla { border: 3px double red; padding: 10px; }
+
+        /* Exemplo de classes para parágrafos */
+        .destaque {
+            font-weight: bold;
+            color: maroon;
+        }
+        .normal {
+            font-style: italic;
+            color: black;
+        }
+
+        /* Estilo para subtítulos */
+        h2 {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: underline;
+            color: maroon;
+        }
+        .desenvolvimento { color: #FFCC00; }
+    </style>
+</head>
+<body>
+    
+    <h2>O Desenvolvimento</h2>
+    <p class="destaque">Este é um parágrafo destacado.</p>
+    <p class="normal">Este é um parágrafo normal com estilo aplicado.</p>
+    
+    <h2 class="desenvolvimento">Subtítulo Especial</h2>
+    <p class="borda-solida">Parágrafo com borda sólida.</p>
+    <p class="borda-pontilhada">Parágrafo com borda pontilhada.</p>
+    <p class="borda-dupla">Parágrafo com borda dupla.</p>
+
+    <h2>Alinhamento de Texto</h2>
+    <p class="alinhado-esquerda">Texto alinhado à esquerda.</p>
+    <p class="alinhado-direita">Texto alinhado à direita.</p>
+    <p class="centralizado">Texto centralizado.</p>
+    <p class="justificado">Texto justificado para ocupar a largura total.</p>
+
+</body>
+</html>
